@@ -28,7 +28,7 @@ const App = () => {
         <div className="flex-large">
           <h3>Create New Printer</h3>
         </div>
-        <div className="flex-large">
+        <div className="d-flex justify-content-center">
           <h3>Available Printers</h3>
           <PrinterTable printers={printers} />
         </div>

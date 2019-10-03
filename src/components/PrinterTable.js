@@ -1,7 +1,7 @@
 import React from 'react'
 
 const PrinterTable = props =>(
-    <table>
+    <table className="table">
         <thead>
             <tr>
                 <th>Printer Name</th>
@@ -16,8 +16,8 @@ const PrinterTable = props =>(
                         <td>{printer.name}</td>
                         <td>{printer.ip}</td>
                         <td>
-                            <button className="button muted-button">Edit</button>
-                            <button className="button muted-button">Delete</button>
+                            <button className="btn btn-primary">Edit</button>
+                            <button className="btn btn-danger">Delete</button>
                         </td>
                     </tr>
                 ))
