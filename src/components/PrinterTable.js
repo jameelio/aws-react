@@ -15,6 +15,7 @@ const PrinterTable = props =>(
                     <tr key={printer._id}>
                         <td>{printer.name}</td>
                         <td>{printer.ip}</td>
+                        <td>{printer.status}</td>
                         <td>
                             <button className="btn btn-primary">Edit</button>
                             <button className="btn btn-danger">Delete</button>
