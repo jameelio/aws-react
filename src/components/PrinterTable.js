@@ -26,8 +26,6 @@ const PrinterTable = props =>(
                         <td colSpan={3}>No printers available</td>
                     </tr>
                 )} 
-
-          
         </tbody>
     </table>
 )
