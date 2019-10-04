@@ -12,7 +12,6 @@ const App = () => {
   useEffect(()=>{
     async function getPrinters(){
       const result = await axios('https://lfpwim5vxl.execute-api.us-east-1.amazonaws.com/dev/printers');
-      // console.log(result.data);
       setPrinters(result.data)
     }
     getPrinters();
